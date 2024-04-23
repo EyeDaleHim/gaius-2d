@@ -1,7 +1,7 @@
 -cp src
 -D analyzer-optimize
 -D debug
--main Main
+-main Global
 --library hxcpp-debug-server
---library hxsdl
+--library linc_glfw
 --cpp export
