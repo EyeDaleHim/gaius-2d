@@ -15,6 +15,7 @@ class Main {
 
 		while(running) {
 			SDL.pollEvent(event);
+            trace('REEEE');
 			switch(event.ref.type) {
 				case QUIT:
 					running = false;
